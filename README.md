@@ -1,5 +1,7 @@
+
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/67a8d4a3-b31b-4d40-960c-32dbd74eadef" alt="ContextualAI Banner" />
+  <img src="Image.jpg" alt="ContextualAI Banner" />
 </p>
 
 <h1 align="center">🧠 ContextualAI</h1>
