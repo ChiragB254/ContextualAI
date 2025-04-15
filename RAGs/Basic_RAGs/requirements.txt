@@ -1,0 +1,11 @@
+tiktoken
+langchain
+langchain-openai
+langchain-community
+langchain-core
+openai
+tqdm
+numpy
+pandas
+jupyter
+python-dotenv
