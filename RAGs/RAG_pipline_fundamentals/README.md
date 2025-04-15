@@ -34,9 +34,7 @@ RAG_PIPLINE_FUNDAMENTALS/
 ├── sample.pdf                     # Sample input document for the pipeline
 ├── Ingestion.ipynb                # Chunking + embedding creation
 ├── Retrieval.ipynb                # Semantic document retrieval
-├── Retrival_og.ipynb              # Original version for comparison/testing
 ├── Synthesis(Genration).ipynb     # Response generation from context
-└── Synthesis(Genration)_old.ipynb # Earlier generation version
 ```
 
 ---
@@ -63,6 +61,16 @@ RAG_PIPLINE_FUNDAMENTALS/
 
 ---
 
+
+## 🔄 Workflow
+
+```mermaid
+graph LR
+    A[📥 Ingestion] --> B[🔍 Retrieval]
+    B --> C[🧠 Synthesis/Generation]
+```
+---
+
 ## 📂 Notebooks Explained
 
 | Notebook | Purpose |
@@ -70,8 +78,6 @@ RAG_PIPLINE_FUNDAMENTALS/
 | `Ingestion.ipynb` | Chunk documents & create vector embeddings |
 | `Retrieval.ipynb` | Retrieve semantically similar chunks |
 | `Synthesis(Genration).ipynb` | Generate final response using context |
-| `Retrival_og.ipynb` | Earlier retrieval approach (for reference) |
-| `Synthesis(Genration)_old.ipynb` | Experimental generation notebook |
 
 ---
 
@@ -83,7 +89,7 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-Don't forget to create a `.env` file based on `.env.example` for storing API keys and config values.
+Don't forget to create a `.env` file based on `.env.example` to store API keys and config values.
 
 ---
 
