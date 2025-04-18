@@ -15,7 +15,7 @@
 ## 📘 Overview
 
 **Basic_RAGs** is a notebook suite showcasing how to build minimal RAG pipelines using different **LLM providers** — like Groq, HuggingFace, Ollama, and OpenAI.  
-It is the **next step after** [`RAG_PIPELINE_FUNDAMENTALS`](../RAG_PIPELINE_FUNDAMENTALS), where core concepts like **Ingestion**, **Retrieval**, and **Synthesis (Generation)** were explained.
+It is the **next step after** [`RAG_pipline_fundamentals`](../RAG_pipline_fundamentals), where core concepts like **Ingestion**, **Retrieval**, and **Synthesis (Generation)** were explained.
 
 This module helps you compare how different APIs and inference providers affect your RAG pipeline’s performance and behavior.
 
@@ -155,4 +155,3 @@ This repo is designed as a flexible **learning-first sandbox** 🔬
 <p align="center" style="font-size: 13px; color: black; font-style: italic;">
   <strong>Made with ❤️ by Chirag Bansal</strong> for the open-source AI community.
 </p>
----
