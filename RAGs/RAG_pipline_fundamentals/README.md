@@ -139,5 +139,5 @@ Pull requests, feedback, and suggestions are welcome! This repo is a learning-fi
 ---
 
   <p style="font-size: 13px; color: black; font-style: italic; margin-top: 8px;">
-    <strong>Made with ❤️ by Chirag Bansal</strong>
+    <strong>Made with ❤️ by Chirag Bansal</strong>for the open-source AI community.</em>
   </p>
